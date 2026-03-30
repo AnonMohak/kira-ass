@@ -1,0 +1,36 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.main{
+	display:grid;
+	margin:0 auto;
+	background-color:black;
+	width:1500px;
+	grid-template-columns:1fr 2fr;
+	gap:10px;
+}
+
+.main div{
+	font-size:80px;
+}
+
+.left{
+	background-color:red;
+}
+
+.right{
+	background-color:blue;
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr;	
+	grid-template-rows:1fr 1fr 1fr;	
+}
+
+.left-text{
+	margin:0 auto;
+}
+
+.inner-left{
+	font-size:20px;
+}
